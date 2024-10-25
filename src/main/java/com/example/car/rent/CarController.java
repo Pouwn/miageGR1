@@ -18,6 +18,7 @@ public class CarController {
         carDatabase.put("11AA22", new Car("11AA22", "Ferrari", 100));
         carDatabase.put("22BB33", new Car("22BB33", "Lamborghini", 200));
         carDatabase.put("22BB33", new Car("CCDD44", "porsche", 150));
+        carDatabase.put("22BB33", new Car("WWDD44", "Volkswagen", 100));
     }
 
     @GetMapping
